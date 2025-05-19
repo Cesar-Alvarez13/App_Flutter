@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema para la ventana mientras Flutter se inicia -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <!-- Fondo transparente -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- Tema normal para la ventana después de iniciar Flutter -->
+    <style name="NormalTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>
